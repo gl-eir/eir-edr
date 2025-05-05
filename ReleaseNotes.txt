@@ -1,0 +1,16 @@
+------------eir-edr-1.4.1.2 (Release Notes) (RollBack This Release to Previous Version)
+
+1. Reading SS7 Logs and creating EDR for Foreign Imsi.
+
+DB change :
+
+NA
+
+application.yml : 
+//Remove Belowed
+ss7:
+  scheduler:
+    cronjob: 0 */5 * * * *
+  files:
+    edrFilesFolder: D:/
+    edrMoveFolder: D:/SS7

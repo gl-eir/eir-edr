@@ -1,0 +1,6 @@
+eagle:
+  edr:
+    serverPort: 8004
+
+info-mapper:
+  enable: true
